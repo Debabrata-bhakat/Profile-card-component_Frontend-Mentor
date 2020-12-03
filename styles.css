@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    background-color: #00B6C7;
+    background-image: url("images/bg-pattern-top.svg");
+}
+
+
+
+img {
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid white;
+    left: 180px;
+    top: 120px;
+}
+
+.card {
+    margin: 10% auto;
+    height: 30rem;
+    width: 30rem;
+    border: none;
+}
+
+.card-header {
+    background-image: url("images/bg-pattern-card.svg");
+    box-sizing: 25px;
+    height: 35%;
+}
+
+.card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.card-footer {
+    background-color: white;
+    height: 20%;
+}
+
+.name {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 30%;
+    padding-bottom: 3%;
+}
+
+.age {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    color: #969696;
+}
+
+.place {
+    font-family: 'Montserrat', sans-serif;
+    color: #969696;
+}
+
+.account1 {
+    display: inline-block;
+    position: relative;
+    right: 20%;
+}
+
+.account2 {
+    display: inline-block;
+}
+
+.account3 {
+    display: inline-block;
+    position: relative;
+    left: 20%;
+}
+
+.number {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.type {
+    font-family: 'Montserrat', sans-serif;
+    color: #969696;
+}
